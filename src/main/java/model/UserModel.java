@@ -91,10 +91,17 @@ public class UserModel {
 			statement.setString(2, password);
 			ResultSet result = statement.executeQuery();
 			while(result.next()) {
-				user = new User();
+				user= new User();
+				user.setId(result.getInt("id"));
 				user.setEmail(result.getString("email"));
 				user.setPassword(result.getString("password"));
+				user.setName(result.getString("name"));
+				user.setCode(result.getString("code"));
+				user.setAddress(result.getString("address"));
+				user.setPhone(result.getString("phone"));
+				user.setRoleId(result.getInt("role_id"));
 			}
+			connection.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

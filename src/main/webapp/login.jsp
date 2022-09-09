@@ -15,7 +15,7 @@
     <div class="col-md-5 m-auto mt-5">
       <h3 class="text-center">ĐĂNG NHẬP HỆ THỐNG</h3>
       <div class="p-4 border mt-4">
-        <form action="">
+        <form action="" method="post">
             <div class="form-group">
               <label>Email</label>
               <input type="email" class="form-control" name="email">
@@ -24,7 +24,7 @@
               <label>Mật khẩu</label>
               <input type="password" class="form-control" name="password">
             </div>
-            <input type="submit" class="btn btn-primary"></input>
+            <input type="submit" class="btn btn-primary">Login</input>
           </form>
       </div>
       </div>
