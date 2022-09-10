@@ -8,5 +8,8 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Pc/Downloads/apache-tomcat-9.0.65/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pc/Downloads/apache-tomcat-9.0.65/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pc/Downloads/apache-tomcat-9.0.65/bin/tomcat-juli.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
